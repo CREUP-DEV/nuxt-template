@@ -7,7 +7,7 @@ useHead({
 
 <template>
   <UApp>
-    <NuxtLoadingIndicator />
+    <NuxtLoadingIndicator color="var(--ui-primary)" />
     <NuxtRouteAnnouncer />
 
     <NuxtLayout>
