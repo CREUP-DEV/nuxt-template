@@ -1,5 +1,5 @@
 <template>
-  <UHeader>
+  <UHeader id="main-navigation">
     <template #title>
       <UColorModeImage
         light="/img/creup-imagotipo.svg"

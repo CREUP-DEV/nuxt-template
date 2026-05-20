@@ -6,17 +6,13 @@ const socials = useSocials()
   <UFooter>
     <template #left>
       <p class="text-muted text-center text-sm sm:text-left">
-        CREUP - Coordinadora de Representantes de Estudiantes de Universidades
-        Públicas - {{ new Date().getFullYear() }}
+        CREUP - Coordinadora de Representantes de Estudiantes de Universidades Públicas -
+        {{ new Date().getFullYear() }}
       </p>
     </template>
 
     <template #right>
-      <UTooltip
-        v-for="social in socials"
-        :key="social.label"
-        :text="social.label"
-      >
+      <UTooltip v-for="social in socials" :key="social.label" :text="social.label">
         <UButton
           :icon="social.icon"
           color="neutral"

@@ -2,7 +2,7 @@
 @import '@nuxt/ui';
 
 @theme {
-  --font-sans: 'Raleway', 'Comic Sans', sans-serif;
+  --font-sans: 'Raleway', sans-serif;
   --font-serif: 'Red Rose', serif;
   --font-mono: 'Fira Code', monospace;
 
@@ -70,6 +70,26 @@
 :root {
   --ui-primary: var(--color-creup-red-900);
   --ui-secondary: var(--color-creup-blue-950);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0s !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    transition-delay: 0s !important;
+  }
 }
 
 .dark {

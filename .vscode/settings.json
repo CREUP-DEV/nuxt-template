@@ -8,13 +8,7 @@
     "source.fixAll.eslint": "always"
   },
   "eslint.useFlatConfig": true,
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact",
-    "vue"
-  ],
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact", "vue"],
   "files.eol": "\n",
   "files.encoding": "utf8",
   "files.insertFinalNewline": true,
@@ -25,9 +19,7 @@
     "strings": "on"
   },
   "tailwindCSS.classAttributes": ["class", "ui"],
-  "tailwindCSS.experimental.classRegex": [
-    ["ui:\\s*{([^)]*)\\s*}", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
-  ],
+  "tailwindCSS.experimental.classRegex": [["ui:\\s*{([^)]*)\\s*}", "(?:'|\"|`)([^']*)(?:'|\"|`)"]],
   "cSpell.diagnosticLevel": "Hint",
   "[markdown]": {
     "files.trimTrailingWhitespace": false

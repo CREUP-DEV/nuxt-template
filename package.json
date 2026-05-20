@@ -14,21 +14,26 @@
     "typecheck": "nuxt typecheck"
   },
   "dependencies": {
-    "@nuxt/ui": "^4.4.0",
-    "nuxt": "^4.3.1",
-    "tailwindcss": "^4.1.18"
+    "@nuxt/fonts": "^0.14.0",
+    "@nuxt/icon": "2.2.2",
+    "@nuxt/ui": "4.7.1",
+    "@tailwindcss/vite": "^4.3.0",
+    "nuxt": "^4.4.5",
+    "tailwindcss": "^4.3.0"
   },
   "devDependencies": {
-    "@iconify-json/lucide": "^1.2.90",
-    "@iconify-json/tabler": "^1.2.26",
-    "@nuxt/eslint": "^1.15.1",
-    "eslint": "^10.0.0",
+    "@iconify-json/lucide": "^1.2.108",
+    "@iconify-json/tabler": "^1.2.35",
+    "@nuxt/a11y": "1.0.0-alpha.1",
+    "@nuxt/eslint": "1.15.2",
+    "@types/node": "^24.10.1",
+    "eslint": "^10.4.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.5",
-    "prettier": "^3.8.1",
-    "prettier-plugin-tailwindcss": "^0.7.2",
-    "typescript": "^5.9.3",
-    "vue-tsc": "^3.2.4"
+    "prettier": "3.8.3",
+    "prettier-plugin-tailwindcss": "^0.8.0",
+    "typescript": "^6.0.3",
+    "vue-tsc": "^3.2.9"
   },
-  "packageManager": "pnpm@10.29.2"
+  "packageManager": "pnpm@11.1.3"
 }
