@@ -2,6 +2,7 @@
 import { es } from '@nuxt/ui/locale'
 
 useHead({
+  title: 'CREUP',
   htmlAttrs: { lang: 'es' },
   meta: [
     { name: 'theme-color', content: '#792225' },
